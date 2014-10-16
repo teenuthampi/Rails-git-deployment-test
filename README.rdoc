@@ -1,4 +1,4 @@
-Rails assignment 
+Rails assignment (Learn Track)
 
 --> Create github account if you dont have any.
 
