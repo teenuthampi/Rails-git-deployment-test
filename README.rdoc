@@ -4,7 +4,7 @@ Rails assignment (Learning track)
 
 --> Fork this repo
 
---> Work on task
+--> Work on some task(CRUD ,adding style etc )
 
 --> Push it 
 
