@@ -6,8 +6,8 @@ Rails assignment (Learning track)
 
 --> Work on some task(CRUD ,adding style etc )
 
---> Push it 
+--> Push it to your repo 
 
 --> Send pull request 
 
---> Before sending any pull request, make sure your repository has got updated with original repo(Railscarma repo)
+--> Before sending any pull request, make sure your repository has got updated with original repo(Railscarma repo).
