@@ -10,4 +10,4 @@ Rails assignment (Learning track)
 
 --> Send pull request 
 
---> Before sending pull request, update your repo(Your account repo) with this repo(Railscarma repo)
+--> Before sending pull request, update your repo(Your account repo) from this repo(Railscarma repo)
