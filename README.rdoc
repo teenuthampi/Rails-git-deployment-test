@@ -3,3 +3,11 @@ Rails assignment
 --> Create github account if you dont have any.
 
 --> Fork this repo
+
+--> Work on task
+
+--> Push it 
+
+--> Send pull request 
+
+--> Before sending pull request, update your repo(Your account repo) with this repo(Railscarma repo)
