@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+<h1>Team Details</h1>
+<p><b>Team Name :</b>  <%= @team.team_name %> </p>
+<p><b>Team Size :</b>  <%= @team.users.count %> </p>
+<p><b>Employee Details</b></p>
+<table border=1>
+<tr>
+	<th>S.No</th>
+	<th>Name</th>
+</tr>
+<% @team.users.each_with_index do |user,i| %>
+<tr>
+	<td><%= i+1 %></td> 
+	<td><%= user.name %></td>
+</tr>
+<%end%>
+</table>
+

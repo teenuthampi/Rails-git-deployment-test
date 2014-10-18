@@ -19,6 +19,10 @@
     <%= f.label :age %><br>
     <%= f.number_field :age %>
   </div>
+  <div class="field">
+    <%= f.label :team %><br>
+    <%= f.collection_select(:team_id, Team.all, :id, :team_name, :include_blank => 'select') %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
