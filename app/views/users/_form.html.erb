@@ -27,6 +27,10 @@
     <%= f.label :team %><br>
     <%= f.collection_select(:team_id, Team.all, :id, :team_name, :include_blank => 'select') %>
   </div>
+  <div class="field">
+    <%= f.label :image %><br>
+    <%= f.file_field :image%>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
