@@ -1,6 +1,8 @@
 Continuos::Application.routes.draw do
 
-  root 'users#index'
+  get "welcome/index"
+  root 'welcome#index'
+  resources :teams
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.

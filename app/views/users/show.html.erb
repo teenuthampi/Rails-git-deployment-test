@@ -1,14 +1,20 @@
 <p id="notice"><%= notice %></p>
+<div id="<%= dom_id @user %>">
 
 <p>
   <strong>Name:</strong>
+  <span class="rest-in-place" data-formtype="textarea" data-attribute="name">
   <%= @user.name %>
+  </span>
 </p>
 
 <p>
   <strong>Age:</strong>
+   <span class="rest-in-place" data-formtype="textarea" data-attribute="age">
   <%= @user.age %>
+  </span>
 </p>
+</div>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
