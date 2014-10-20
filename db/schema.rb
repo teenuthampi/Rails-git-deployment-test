@@ -13,9 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20141017110210) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "teams", force: true do |t|
     t.string   "team_name"
     t.string   "project_manager"
