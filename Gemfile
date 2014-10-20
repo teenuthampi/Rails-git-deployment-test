@@ -46,3 +46,4 @@ gem 'debugger', group: [:development, :test]
 
 gem 'rest_in_place' # in-place editor
 gem 'paperclip', "~> 4.1"
+gem 'will_paginate', '~> 3.0.7'
