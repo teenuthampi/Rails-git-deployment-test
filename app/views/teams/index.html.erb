@@ -1,5 +1,11 @@
 <h1>Listing teams</h1>
-
+<%= form_tag(teams_path, :method => "get") do %>
+  <p>
+    <%= text_field_tag :search, params[:search], placeholder: "Search Users" %>
+    <%= submit_tag "Search", :team_name => nil %>
+    <%= link_to 'back', teams_path%>
+  </p>
+<% end %>
 <table border=1>
   <thead>
     <tr>
@@ -10,7 +16,7 @@
       <th>Action</th>
     </tr>
   </thead>
-
+  
   <tbody>
     <% @teams.each do |team| %>
     <tr>
@@ -23,7 +29,7 @@
         <%= link_to 'Destroy', team, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
       <% end %>
-     <%= will_paginate @teams %>
+      <%= will_paginate @teams %>
     </tbody>
   </table>
 
