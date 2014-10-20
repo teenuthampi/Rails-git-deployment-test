@@ -23,6 +23,7 @@
         <%= link_to 'Destroy', team, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
       <% end %>
+     <%= will_paginate @teams %>
     </tbody>
   </table>
 
